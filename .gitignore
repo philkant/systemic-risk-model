@@ -1,0 +1,7 @@
+data
+plots
+.idea
+.hydra
+.pytest_cache
+main.log
+__pycache__

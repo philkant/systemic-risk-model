@@ -1,0 +1,45 @@
+hydra:
+  run:
+    dir: .
+  sweep:
+    dir: .
+    subdir: .
+  job_logging:
+    root:
+      level: INFO
+
+experiment_name: ???
+experiment_id: ???
+output_path: './data/output_${experiment_name}_${experiment_id}.pt'
+analyse: false
+
+seed: 2
+
+volatility: 0.1
+volatility_0: 0.1
+feedback: 1.5
+
+intensity_type: 'linear'
+intensity_parameter: 10.
+
+mean_reversion: 0.0
+
+innerbank_liabilities: 0.
+discount_rate: 0.
+
+control_type: 'NeuralLearnedScalarControl'
+control_function: 'intensity'
+hidden_size: 50
+hidden_size_scalar: 10
+
+final_time: 1.
+time_steps: [128, 256, 512]
+
+min_space: -1.
+max_space: 1.
+space_steps: [128, 256, 512]
+
+weight: 5.
+
+num_epochs: [500, 100]
+num_samples: [128, 256, 16]

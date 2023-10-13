@@ -1,0 +1,6 @@
+torch
+numpy
+tensorflow
+pytest
+matplotlib
+hydra-core

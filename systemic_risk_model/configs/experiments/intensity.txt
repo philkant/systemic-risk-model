@@ -1,0 +1,4 @@
++experiments=intensity ++experiment_id=0 ++intensity_type='linear' ++intensity_parameter=5.
++experiments=intensity ++experiment_id=1 ++intensity_type='linear' ++intensity_parameter=10.
++experiments=intensity ++experiment_id=2 ++intensity_type='linear' ++intensity_parameter=25.
++experiments=intensity ++experiment_id=3 ++intensity_type='linear' ++intensity_parameter=50.

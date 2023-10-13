@@ -1,0 +1,5 @@
++experiments=feedback ++experiment_id=0 ++feedback=0.5
++experiments=feedback ++experiment_id=1 ++feedback=1.0
++experiments=feedback ++experiment_id=2 ++feedback=1.5
++experiments=feedback ++experiment_id=3 ++feedback=2.0
++experiments=feedback ++experiment_id=4 ++feedback=2.5
